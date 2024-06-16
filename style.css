@@ -1,0 +1,55 @@
+*{
+    margin:0; 
+}
+html{
+    background-color: #FFF6ED;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: #008FE295;
+    color: white;
+    height: 80px;
+    font-family: "Kreon";
+    border-bottom: 3px solid white ;
+}
+#otdily{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+.responsive{
+    display: block;
+    width: 100vw;
+    height: auto;
+}
+h2{
+    width: 100%;
+}
+#form{
+    width: 432px;
+    height: 330px;
+    background-color: #FFB00095;
+    text-align: center;
+    font-family: "KaHo";
+}
+.forminput{
+    margin: auto;
+    width: 380px;
+    height: 42px;
+}
+#buttonOffers{
+    background-color: #F8880A;
+    width: 380px;
+    height: 42px;
+    text-align: center;
+}
+
