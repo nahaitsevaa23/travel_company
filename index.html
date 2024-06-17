@@ -14,8 +14,10 @@
 </head>
 <body>
     <header>
-        <img src="Travel-Logo-Graphics-1-36-580x386 1.png" alt="logo">
-        <h2 id="txtlogo">Best of travel s.r.o</h2>
+        <div id="logo">
+            <img src="Travel-Logo-Graphics-1-36-580x386 1.png" alt="logo">
+            <h2 id="txtlogo">Best of travel s.r.o</h2>
+        </div>
         <div id="otdily">
             <h2>Zájezdy</h2>
             <h2>Recenze hotelů</h2>
@@ -25,27 +27,29 @@
         </div>
     </header>
     <main>
-        <section>
+        <section >
             <img class="responsive" src="1984179 1.png">
         </section>
-        <section id="form">
-            <article>
-                <form>
-                    <input type="text" id="destination" class="forminput" placeholder="Kam se vydáme?"><br>
-                    <input type="text" id="location" class="forminput" placeholder="Odkud se vydáme?"><br>
-                    <input type="date" id="date1" class="forminput" placeholder="Kdy se vydáme?"><br>
-                    <input type="date" id="date2" class="forminput" placeholder="Kdy se vydáme zpatky?"><br>
-                </form>
-            </article>
-            <article>
-                <button id="buttonOffers">Najit vhodně nabídky</button><br>
-            </article>
-        </section>
-        <section id="offers">
-            <h1 id="bestOffers">Nejpopulárnější nabídky</h1>
-            <img src="Turkey 1.png" alt="Turecko">
-            <img src="Greece 1.png" alt="Řecko">
-        </section>
+        <div id="obsah">
+            <section id="form">
+                <article>
+                    <form>
+                        <input type="text" id="destination" class="forminput" placeholder="Kam se vydáme?"><br>
+                        <input type="text" id="location" class="forminput" placeholder="Odkud se vydáme?"><br>
+                        <input type="date" id="date1" class="forminput" placeholder="Kdy se vydáme?"><br>
+                        <input type="date" id="date2" class="forminput" placeholder="Kdy se vydáme zpatky?"><br>
+                    </form>
+                </article>
+                <article>
+                    <button id="buttonOffers">Najit vhodně nabídky</button><br>
+                </article>
+            </section>
+            <section id="offers">
+                <h1 id="bestOffers">Nejpopulárnější nabídky</h1>
+                <img src="Turkey 1.png" alt="Turecko">
+                <img src="Greece 1.png" alt="Řecko">
+            </section>
+        </div>
     </main>
 </body>
 </html>

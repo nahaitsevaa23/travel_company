@@ -35,21 +35,61 @@ h2{
     width: 100%;
 }
 #form{
+
     width: 432px;
     height: 330px;
     background-color: #FFB00095;
     text-align: center;
-    font-family: "KaHo";
+    font-family: "KoHo";
+    border-radius: 10px;
 }
 .forminput{
-    margin: auto;
+    margin-top: 18px;
     width: 380px;
     height: 42px;
+    border: 0;
+    border-radius: 10px;
 }
 #buttonOffers{
+    border-radius: 10px;
+    margin-top: 18px;
     background-color: #F8880A;
     width: 380px;
     height: 42px;
     text-align: center;
+    border: 0;
+    font-family: "KoHo";
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
 }
+#obsah{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#bestOffers{
+    font-family: "KoHo";
+    color: #FF2C2C;
+    font-size: 32px;
+    font-weight: 600;
+}
+@media screen and (max-width: 600px) {
+    #otdily{
+        display: none;
+    }
+    #obrazek{
+        display: none;
+    }
+}
+#txtlogo{
+    height: 60px;
+    text-align: center;
+}
+#logo{
+    width: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+}
+
 
